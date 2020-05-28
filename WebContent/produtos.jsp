@@ -21,6 +21,7 @@
 	            <li><a href="index.jsp">Home</a></li>
 	            <li><a href="produtos.jsp">Produtos</a></li>
 	            <li><a href= "contato.jsp">Contato</a></li>
+				<li><a href= "cadastro.jsp">Cadastro</a></li>        
 	            </ul>
 	    </div>
 

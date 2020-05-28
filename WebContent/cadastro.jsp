@@ -21,22 +21,24 @@
 	            <li><a href="index.jsp">Home</a></li>
 	            <li><a href="produtos.jsp">Produtos</a></li>
 	            <li><a href= "contato.jsp">Contato</a></li>
-	           	<li><a href= "cadastro.jsp">Cadastro</a></li>        
+	            <li><a href= "cadastro.jsp">Cadastro</a></li>
+	            
 	            </ul>
 	    </div>
 
-	    <div>
-	    <p>
-			<font size="5" face="Times" color="#4B0082"> 
-
-				Quer conferir mais produtos? Venha conhecer nossa loja. </br></br>
-		        Av: Odilon Guimaraes, nº 1234. Lagoa Redonda - Fortaleza (CE).</br>
-		        Telefone: (85) 3412-3456 </br>
-		        E-mail: lojavirtual@loja.com
-	        </font>
-		</p>
-        
-    	</div>
+	 <div> 
+	 <font size="4" face="Times" color="#4B0082"> 
+         <form action="Cadastro">
+         	<h2>Cadastro</h2>
+            Nome:      <input type="text" name="nome" /><br/>
+            E-mail:    <input type="text" name="email" /><br/>
+            Endereço:  <input type="text" name="endereco" /><br/>
+            Data Nasc: <input type="text" name="dataNascimento" /><br /><br/>
+    
+           <input type="submit" value="Salvar" />
+         </form>
+      </font>   
+     </div>
     	
     	<div id="rodape">
 	        Todos os direitos reservados © 2020<br/>
