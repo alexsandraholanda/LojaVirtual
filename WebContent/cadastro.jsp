@@ -22,13 +22,13 @@
 	            <li><a href="produtos.jsp">Produtos</a></li>
 	            <li><a href= "contato.jsp">Contato</a></li>
 	            <li><a href= "cadastro.jsp">Cadastro</a></li>
-	            
 	            </ul>
 	    </div>
 
-	 <div> 
+	 <div>
+	 
 	 <font size="4" face="Times" color="#4B0082"> 
-         <form action="Cadastro">
+        <form action="Cadastro" method="post">
          	<h2>Cadastro</h2>
             Nome:      <input type="text" name="nome" /><br/>
             E-mail:    <input type="text" name="email" /><br/>
